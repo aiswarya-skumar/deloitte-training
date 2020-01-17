@@ -1,3 +1,0 @@
-select * from movies where (status='booked'and (showdates between '2020-01-04' and '2020-01-10'));
-
-select status, count(status) as count from movies group by status;
